@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Registro de Usuario - eMercado</title>
+
+        <link rel="stylesheet" type="text/css" href="css\login.css">
+        <script src="js/init.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+       <img class="cover" src="img\cover_back.png"
+        alt= "cover_back">
+
+        <form class="form-signin" action="index.html" method="POST">
+            <h1>Registro de usuario</h1>
+            <input type="text" id="inputName" class="form-control" placeholder="Usuario" required autofocus><br>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required><br>
+            <div class="checkbox mb-3">
+            <label>
+            <input type="checkbox" value="remember-me"> No me olvides
+            </label>
+            </div>
+            <button class="signin" type = "submit" onclick="save();">Ingresar</button>
+        </form>
+
+    </body>
+</html>
